@@ -1,0 +1,27 @@
+public class Car {
+    
+    String modelName;
+    int modelYear;
+
+    public static void main(String[] args) {
+        
+        Car car1 = new Car();
+        car1.modelName = "Ford Mustang";
+        car1.modelYear = 2021;
+
+  
+        Car car2 = new Car();
+        car2.modelName = "Tesla Model 3";
+        car2.modelYear = 2024;
+
+        
+        System.out.println("--- Car 1 Details ---");
+        System.out.println("Model: " + car1.modelName);
+        System.out.println("Year: " + car1.modelYear);
+
+        
+        System.out.println("\n--- Car 2 Details ---");
+        System.out.println("Model: " + car2.modelName);
+        System.out.println("Year: " + car2.modelYear);
+    }
+}
