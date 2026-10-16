@@ -1,0 +1,11 @@
+class Main {
+int a,b;
+int add() {
+    return atb;
+}
+public static void main(String[] args) {
+Main A=new Main();
+     A.a=10;
+     System.out.println("add :"+ A.add());
+  }
+}
